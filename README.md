@@ -1,4 +1,4 @@
-# 🚀 ONE - Oracle Next Education | Lógica de Programação - Desafios JavaScript
+# Teste 🚀 ONE - Oracle Next Education | Lógica de Programação - Desafios JavaScript
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/br/education/oracle-next-education/)
