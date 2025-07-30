@@ -1,4 +1,4 @@
-# Teste 🚀 ONE - Oracle Next Education | Lógica de Programação - Desafios JavaScript
+# 🚀 ONE - Oracle Next Education | Lógica de Programação - Desafios JavaScript
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)](https://www.oracle.com/br/education/oracle-next-education/)
@@ -9,101 +9,84 @@
 
 ## 📋 Sobre o Projeto
 
-Este repositório contém as soluções para os desafios propostos no programa **ONE - Oracle Next Education** em parceria com a **Alura**. Cada exercício foi desenvolvido para praticar conceitos fundamentais de JavaScript, incluindo variáveis, alertas, prompts e estruturas condicionais.
+Este repositório contém a segunda série de desafios propostos no programa **ONE - Oracle Next Education** em parceria com a **Alura**. Os exercícios focam em estruturas condicionais (`if/else`), validações de entrada do usuário e uso de template strings para formatação de mensagens.
 
 ## 🎯 Desafios Realizados
 
-### 🔔 1. Alerta de Boas-vindas
-Exibe uma mensagem de boas-vindas ao usuário.
+### 📅 1. Pergunte ao usuário qual é o dia da semana. 
+Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". 
+Caso contrário, mostre "Boa semana!".
 
 ```javascript
-alert("Boas vindas ao nosso site!");
-```
-
----
-
-### 📝 2. Declaração de Variável - Nome
-Cria uma variável para armazenar um nome.
-
-```javascript
-let nome = "Lua";
-```
-
----
-
-### 🎂 3. Declaração de Variável - Idade
-Define uma variável numérica para idade.
-
-```javascript
-let idade = 25;
-```
-
----
-
-### 💰 4. Variável de Vendas
-Armazena o número de vendas realizadas.
-
-```javascript
-let numeroDeVendas = 50;
-```
-
----
-
-### 🏦 5. Saldo Disponível
-Define o saldo disponível na conta.
-
-```javascript
-let saldoDisponivel = 1000;
-```
-
----
-
-### ⚠️ 6. Alerta de Erro
-Exibe uma mensagem de erro diretamente.
-
-```javascript
-alert("Erro! Preencha todos os campos");
-```
-
----
-
-### 📢 7. Variável de Mensagem de Erro
-Armazena a mensagem de erro em uma variável e a exibe.
-
-```javascript
-let mensagemDeErro = "Erro! Preencha todos os campos";
-alert(mensagemDeErro);
-```
-
----
-
-### 👤 8. Captura de Nome do Usuário
-Solicita o nome do usuário através de um prompt.
-
-```javascript
-let nome = prompt("Digite o seu nome");
-```
-
----
-
-### 🎯 9. Captura de Idade
-Coleta a idade do usuário via prompt.
-
-```javascript
-let idade = prompt("Digite a sua idade");
-```
-
----
-
-### 🚗 10. Validação de Idade para Habilitação
-Verifica se o usuário pode tirar habilitação baseado na idade.
-
-```javascript
-let idade = prompt("Digite a sua idade");
-if(idade >= 18){
-    alert("Pode tirar a habilitação!");
+let diaSemana = prompt('Digite o dia da semana');
+if (diaSemana == 'Sábado' || diaSemana == 'Domingo') {
+    alert('Bom fim de semana!');
+} else {
+    alert('Boa semana!');
 }
 ```
+
+---
+
+### ➕➖ 2. Verifique se um número digitado pelo usuário é positivo ou negativo. 
+Mostre um alerta informando.
+
+```javascript
+let numero = prompt('Digite um número');
+if (numero > 0) {
+    alert('Número positivo');
+} else {
+    alert('Número negativo');
+}
+```
+
+---
+
+### 🎮 3. Crie um sistema de pontuação para um jogo. 
+Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". 
+Caso contrário, mostre "Tente novamente para ganhar.".
+
+```javascript
+let pontuacao = 80;
+
+if (pontuacao >= 100) {
+    alert('Parabéns, você venceu!');
+} else {
+    alert('Tente novamente para ganhar.');
+}
+```
+
+---
+
+### 💰 4. Crie uma mensagem que informa o usuário sobre o saldo da conta, 
+usando uma template string para incluir o valor do saldo.
+
+```javascript
+let saldo = 1000;
+alert(`Seu saldo é de R$${saldo}`);
+```
+
+---
+
+### 👋 5. Peça ao usuário para inserir seu nome usando prompt. 
+Em seguida, mostre um alerta de boas-vindas usando esse nome.
+
+```javascript
+let nome = prompt('Digite seu nome');
+alert(`Boas vindas ${nome}`);
+```
+
+---
+
+## 💡 Conceitos Aprendidos
+
+| Conceito | Descrição | Exemplo |
+|----------|-----------|---------|
+| **Estruturas Condicionais** | `if`, `else if`, `else` | Tomada de decisões no código |
+| **Operadores Lógicos** | `&&`, `||`, `!` | Combinação de condições |
+| **Operadores de Comparação** | `>`, `<`, `>=`, `<=`, `===` | Comparação entre valores |
+| **Template Strings** | Interpolação com `${}` | Formatação dinâmica de texto |
+| **Conversão de Tipos** | `Number()`, `String()` | Manipulação de tipos de dados |
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -115,37 +98,45 @@ if(idade >= 18){
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/one-logica-programacao-desafios.git
+   git clone https://github.com/flavioafsantana/one-logica-programacao-desafios-2.git
    ```
 
 2. **Navegue até o diretório:**
    ```bash
-   cd one-logica-programacao-desafios
+   cd one-logica-programacao-desafios-2
    ```
 
 3. **Execute os códigos:**
    - Abra um arquivo HTML
    - Inclua o script JavaScript
-   - Abra no navegador e verifique o console/alertas
+   - Abra no navegador e teste as funcionalidades
 
-## 📚 Conceitos Praticados
+## 📈 Evolução dos Desafios
 
-| Conceito | Descrição |
-|----------|-----------|
-| **Variáveis** | Declaração com `let` e atribuição de valores |
-| **Tipos de Dados** | String, Number |
-| **Funções Nativas** | `alert()`, `prompt()` |
-| **Estruturas Condicionais** | `if` statement |
-| **Operadores** | Comparação (`>=`) |
+### 🔄 **Primeira Série → Segunda Série**
+
+| Aspecto | Primeira Série | Segunda Série |
+|---------|----------------|---------------|
+| **Foco** | Variáveis e alertas básicos | Estruturas condicionais |
+| **Interação** | Captura simples de dados | Validação e tomada de decisões |
+| **Complexidade** | Linear | Ramificada (if/else) |
+| **Formatação** | Concatenação simples | Template strings |
+
+## 🎯 Próximos Passos
+
+- ➰ **Estruturas de Repetição** (`for`, `while`)
+- 🔧 **Funções** (criação e reutilização de código)
+- 🗂️ **Arrays** (manipulação de listas)
+- 📦 **Objetos** (estruturas de dados complexas)
 
 ## 🤝 Contribuições
 
 Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
 - 🐛 Reportar bugs
-- 💡 Sugerir melhorias
+- 💡 Sugerir melhorias nos algoritmos
 - 📝 Corrigir documentação
-- ✨ Adicionar novos desafios
+- ✨ Adicionar novos desafios relacionados
 
 ## 📄 Licença
 
