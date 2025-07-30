@@ -115,7 +115,7 @@ if(idade >= 18){
 
 1. **Clone o repositório:**
    ```bash
-   git clone https://github.com/seu-usuario/one-logica-programacao-desafios.git
+   git clone https://github.com/flavioafsantana/one-logica-programacao-desafios.git
    ```
 
 2. **Navegue até o diretório:**
