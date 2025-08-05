@@ -13,101 +13,64 @@ Este repositório contém as soluções para os desafios propostos no programa *
 
 ## 🎯 Desafios Realizados
 
-### 🔔 1. Alerta de Boas-vindas
-Exibe uma mensagem de boas-vindas ao usuário.
+### ⬆️ 1. Contador Crescente com While
+Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
 
 ```javascript
-alert("Boas vindas ao nosso site!");
-```
-
----
-
-### 📝 2. Declaração de Variável - Nome
-Cria uma variável para armazenar um nome.
-
-```javascript
-let nome = "Lua";
-```
-
----
-
-### 🎂 3. Declaração de Variável - Idade
-Define uma variável numérica para idade.
-
-```javascript
-let idade = 25;
-```
-
----
-
-### 💰 4. Variável de Vendas
-Armazena o número de vendas realizadas.
-
-```javascript
-let numeroDeVendas = 50;
-```
-
----
-
-### 🏦 5. Saldo Disponível
-Define o saldo disponível na conta.
-
-```javascript
-let saldoDisponivel = 1000;
-```
-
----
-
-### ⚠️ 6. Alerta de Erro
-Exibe uma mensagem de erro diretamente.
-
-```javascript
-alert("Erro! Preencha todos os campos");
-```
-
----
-
-### 📢 7. Variável de Mensagem de Erro
-Armazena a mensagem de erro em uma variável e a exibe.
-
-```javascript
-let mensagemDeErro = "Erro! Preencha todos os campos";
-alert(mensagemDeErro);
-```
-
----
-
-### 👤 8. Captura de Nome do Usuário
-Solicita o nome do usuário através de um prompt.
-
-```javascript
-let nome = prompt("Digite o seu nome");
-```
-
----
-
-### 🎯 9. Captura de Idade
-Coleta a idade do usuário via prompt.
-
-```javascript
-let idade = prompt("Digite a sua idade");
-```
-
----
-
-### 🚗 10. Validação de Idade para Habilitação
-Verifica se o usuário pode tirar habilitação baseado na idade.
-
-```javascript
-let idade = prompt("Digite a sua idade");
-if(idade >= 18){
-    alert("Pode tirar a habilitação!");
+let contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
 }
 ```
 
+---
+
+### ⬇️ 2. Contador Decrescente com While
+Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+
+```javascript
+let contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+```
+
+---
+
+### 🚀 3. Contagem Regressiva Personalizada
+Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+
+```javascript
+let contador = 0;
+contador = prompt('Digite um número para a contagem regressiva: ');
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+```
+
+---
+
+### 📈 4. Contagem Progressiva Personalizada
+Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+
+```javascript
+let contador = 0;
+let numeroMaximo = 0;
+numeroMaximo = prompt('Digite um número para a contagem progressiva: ');
+while (contador <= numeroMaximo) {
+    console.log(contador);
+    contador++;
+}
+```
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
-- **JavaScript**
+- **JavaScript ES6+**
 - **HTML5** (para execução dos scripts)
 - **Navegador Web** (ambiente de execução)
 
@@ -133,18 +96,18 @@ if(idade >= 18){
 | Conceito | Descrição |
 |----------|-----------|
 | **Variáveis** | Declaração com `let` e atribuição de valores |
-| **Tipos de Dados** | String, Number |
-| **Funções Nativas** | `alert()`, `prompt()` |
-| **Estruturas Condicionais** | `if` statement |
-| **Operadores** | Comparação (`>=`) |
+| **Estruturas de Repetição** | Loop `while` para repetir código |
+| **Funções Nativas** | `console.log()`, `prompt()` |
+| **Operadores de Comparação** | `<=`, `>=` para condições do loop |
+| **Incremento/Decremento** | `++`, `--` para modificar contadores |
 
 ## 🤝 Contribuições
 
 Contribuições são sempre bem-vindas! Sinta-se à vontade para:
 
-- 🐛 Reportar bugs
+- 🐞 Reportar bugs
 - 💡 Sugerir melhorias
-- 📝 Corrigir documentação
+- 📚 Corrigir documentação
 - ✨ Adicionar novos desafios
 
 ## 📄 Licença
